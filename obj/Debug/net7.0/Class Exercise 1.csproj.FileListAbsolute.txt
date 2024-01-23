@@ -1,0 +1,31 @@
+/Users/stevezhang/Desktop/GBC/Semester 4/COMP 2139/project/steve/COMP-2139/Class Exercise 1/Class Exercise 1/bin/Debug/net7.0/appsettings.Development.json
+/Users/stevezhang/Desktop/GBC/Semester 4/COMP 2139/project/steve/COMP-2139/Class Exercise 1/Class Exercise 1/bin/Debug/net7.0/appsettings.json
+/Users/stevezhang/Desktop/GBC/Semester 4/COMP 2139/project/steve/COMP-2139/Class Exercise 1/Class Exercise 1/bin/Debug/net7.0/Class Exercise 1.staticwebassets.runtime.json
+/Users/stevezhang/Desktop/GBC/Semester 4/COMP 2139/project/steve/COMP-2139/Class Exercise 1/Class Exercise 1/bin/Debug/net7.0/Class Exercise 1
+/Users/stevezhang/Desktop/GBC/Semester 4/COMP 2139/project/steve/COMP-2139/Class Exercise 1/Class Exercise 1/bin/Debug/net7.0/Class Exercise 1.deps.json
+/Users/stevezhang/Desktop/GBC/Semester 4/COMP 2139/project/steve/COMP-2139/Class Exercise 1/Class Exercise 1/bin/Debug/net7.0/Class Exercise 1.runtimeconfig.json
+/Users/stevezhang/Desktop/GBC/Semester 4/COMP 2139/project/steve/COMP-2139/Class Exercise 1/Class Exercise 1/bin/Debug/net7.0/Class Exercise 1.dll
+/Users/stevezhang/Desktop/GBC/Semester 4/COMP 2139/project/steve/COMP-2139/Class Exercise 1/Class Exercise 1/bin/Debug/net7.0/Class Exercise 1.pdb
+/Users/stevezhang/Desktop/GBC/Semester 4/COMP 2139/project/steve/COMP-2139/Class Exercise 1/Class Exercise 1/obj/Debug/net7.0/Class Exercise 1.csproj.AssemblyReference.cache
+/Users/stevezhang/Desktop/GBC/Semester 4/COMP 2139/project/steve/COMP-2139/Class Exercise 1/Class Exercise 1/obj/Debug/net7.0/Class Exercise 1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/stevezhang/Desktop/GBC/Semester 4/COMP 2139/project/steve/COMP-2139/Class Exercise 1/Class Exercise 1/obj/Debug/net7.0/Class Exercise 1.AssemblyInfoInputs.cache
+/Users/stevezhang/Desktop/GBC/Semester 4/COMP 2139/project/steve/COMP-2139/Class Exercise 1/Class Exercise 1/obj/Debug/net7.0/Class Exercise 1.AssemblyInfo.cs
+/Users/stevezhang/Desktop/GBC/Semester 4/COMP 2139/project/steve/COMP-2139/Class Exercise 1/Class Exercise 1/obj/Debug/net7.0/Class Exercise 1.csproj.CoreCompileInputs.cache
+/Users/stevezhang/Desktop/GBC/Semester 4/COMP 2139/project/steve/COMP-2139/Class Exercise 1/Class Exercise 1/obj/Debug/net7.0/Class Exercise 1.MvcApplicationPartsAssemblyInfo.cache
+/Users/stevezhang/Desktop/GBC/Semester 4/COMP 2139/project/steve/COMP-2139/Class Exercise 1/Class Exercise 1/obj/Debug/net7.0/Class Exercise 1.RazorAssemblyInfo.cache
+/Users/stevezhang/Desktop/GBC/Semester 4/COMP 2139/project/steve/COMP-2139/Class Exercise 1/Class Exercise 1/obj/Debug/net7.0/Class Exercise 1.RazorAssemblyInfo.cs
+/Users/stevezhang/Desktop/GBC/Semester 4/COMP 2139/project/steve/COMP-2139/Class Exercise 1/Class Exercise 1/obj/Debug/net7.0/staticwebassets/msbuild.Class Exercise 1.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/stevezhang/Desktop/GBC/Semester 4/COMP 2139/project/steve/COMP-2139/Class Exercise 1/Class Exercise 1/obj/Debug/net7.0/staticwebassets/msbuild.build.Class Exercise 1.props
+/Users/stevezhang/Desktop/GBC/Semester 4/COMP 2139/project/steve/COMP-2139/Class Exercise 1/Class Exercise 1/obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.Class Exercise 1.props
+/Users/stevezhang/Desktop/GBC/Semester 4/COMP 2139/project/steve/COMP-2139/Class Exercise 1/Class Exercise 1/obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.Class Exercise 1.props
+/Users/stevezhang/Desktop/GBC/Semester 4/COMP 2139/project/steve/COMP-2139/Class Exercise 1/Class Exercise 1/obj/Debug/net7.0/staticwebassets.pack.json
+/Users/stevezhang/Desktop/GBC/Semester 4/COMP 2139/project/steve/COMP-2139/Class Exercise 1/Class Exercise 1/obj/Debug/net7.0/staticwebassets.build.json
+/Users/stevezhang/Desktop/GBC/Semester 4/COMP 2139/project/steve/COMP-2139/Class Exercise 1/Class Exercise 1/obj/Debug/net7.0/staticwebassets.development.json
+/Users/stevezhang/Desktop/GBC/Semester 4/COMP 2139/project/steve/COMP-2139/Class Exercise 1/Class Exercise 1/obj/Debug/net7.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
+/Users/stevezhang/Desktop/GBC/Semester 4/COMP 2139/project/steve/COMP-2139/Class Exercise 1/Class Exercise 1/obj/Debug/net7.0/scopedcss/bundle/Class Exercise 1.styles.css
+/Users/stevezhang/Desktop/GBC/Semester 4/COMP 2139/project/steve/COMP-2139/Class Exercise 1/Class Exercise 1/obj/Debug/net7.0/scopedcss/projectbundle/Class Exercise 1.bundle.scp.css
+/Users/stevezhang/Desktop/GBC/Semester 4/COMP 2139/project/steve/COMP-2139/Class Exercise 1/Class Exercise 1/obj/Debug/net7.0/Class Exercise 1.dll
+/Users/stevezhang/Desktop/GBC/Semester 4/COMP 2139/project/steve/COMP-2139/Class Exercise 1/Class Exercise 1/obj/Debug/net7.0/refint/Class Exercise 1.dll
+/Users/stevezhang/Desktop/GBC/Semester 4/COMP 2139/project/steve/COMP-2139/Class Exercise 1/Class Exercise 1/obj/Debug/net7.0/Class Exercise 1.pdb
+/Users/stevezhang/Desktop/GBC/Semester 4/COMP 2139/project/steve/COMP-2139/Class Exercise 1/Class Exercise 1/obj/Debug/net7.0/Class Exercise 1.genruntimeconfig.cache
+/Users/stevezhang/Desktop/GBC/Semester 4/COMP 2139/project/steve/COMP-2139/Class Exercise 1/Class Exercise 1/obj/Debug/net7.0/ref/Class Exercise 1.dll
