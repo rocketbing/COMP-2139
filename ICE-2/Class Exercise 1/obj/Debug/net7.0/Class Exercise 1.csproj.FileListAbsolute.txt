@@ -1,0 +1,150 @@
+/Users/stevezhang/Desktop/GBC/Semester 4/COMP 2139/project/steve/COMP-2139/Class Exercise 1/Class Exercise 1/bin/Debug/net7.0/appsettings.Development.json
+/Users/stevezhang/Desktop/GBC/Semester 4/COMP 2139/project/steve/COMP-2139/Class Exercise 1/Class Exercise 1/bin/Debug/net7.0/appsettings.json
+/Users/stevezhang/Desktop/GBC/Semester 4/COMP 2139/project/steve/COMP-2139/Class Exercise 1/Class Exercise 1/bin/Debug/net7.0/Class Exercise 1.staticwebassets.runtime.json
+/Users/stevezhang/Desktop/GBC/Semester 4/COMP 2139/project/steve/COMP-2139/Class Exercise 1/Class Exercise 1/bin/Debug/net7.0/Class Exercise 1
+/Users/stevezhang/Desktop/GBC/Semester 4/COMP 2139/project/steve/COMP-2139/Class Exercise 1/Class Exercise 1/bin/Debug/net7.0/Class Exercise 1.deps.json
+/Users/stevezhang/Desktop/GBC/Semester 4/COMP 2139/project/steve/COMP-2139/Class Exercise 1/Class Exercise 1/bin/Debug/net7.0/Class Exercise 1.runtimeconfig.json
+/Users/stevezhang/Desktop/GBC/Semester 4/COMP 2139/project/steve/COMP-2139/Class Exercise 1/Class Exercise 1/bin/Debug/net7.0/Class Exercise 1.dll
+/Users/stevezhang/Desktop/GBC/Semester 4/COMP 2139/project/steve/COMP-2139/Class Exercise 1/Class Exercise 1/bin/Debug/net7.0/Class Exercise 1.pdb
+/Users/stevezhang/Desktop/GBC/Semester 4/COMP 2139/project/steve/COMP-2139/Class Exercise 1/Class Exercise 1/obj/Debug/net7.0/Class Exercise 1.csproj.AssemblyReference.cache
+/Users/stevezhang/Desktop/GBC/Semester 4/COMP 2139/project/steve/COMP-2139/Class Exercise 1/Class Exercise 1/obj/Debug/net7.0/Class Exercise 1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/stevezhang/Desktop/GBC/Semester 4/COMP 2139/project/steve/COMP-2139/Class Exercise 1/Class Exercise 1/obj/Debug/net7.0/Class Exercise 1.AssemblyInfoInputs.cache
+/Users/stevezhang/Desktop/GBC/Semester 4/COMP 2139/project/steve/COMP-2139/Class Exercise 1/Class Exercise 1/obj/Debug/net7.0/Class Exercise 1.AssemblyInfo.cs
+/Users/stevezhang/Desktop/GBC/Semester 4/COMP 2139/project/steve/COMP-2139/Class Exercise 1/Class Exercise 1/obj/Debug/net7.0/Class Exercise 1.csproj.CoreCompileInputs.cache
+/Users/stevezhang/Desktop/GBC/Semester 4/COMP 2139/project/steve/COMP-2139/Class Exercise 1/Class Exercise 1/obj/Debug/net7.0/Class Exercise 1.MvcApplicationPartsAssemblyInfo.cache
+/Users/stevezhang/Desktop/GBC/Semester 4/COMP 2139/project/steve/COMP-2139/Class Exercise 1/Class Exercise 1/obj/Debug/net7.0/Class Exercise 1.RazorAssemblyInfo.cache
+/Users/stevezhang/Desktop/GBC/Semester 4/COMP 2139/project/steve/COMP-2139/Class Exercise 1/Class Exercise 1/obj/Debug/net7.0/Class Exercise 1.RazorAssemblyInfo.cs
+/Users/stevezhang/Desktop/GBC/Semester 4/COMP 2139/project/steve/COMP-2139/Class Exercise 1/Class Exercise 1/obj/Debug/net7.0/staticwebassets/msbuild.Class Exercise 1.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/stevezhang/Desktop/GBC/Semester 4/COMP 2139/project/steve/COMP-2139/Class Exercise 1/Class Exercise 1/obj/Debug/net7.0/staticwebassets/msbuild.build.Class Exercise 1.props
+/Users/stevezhang/Desktop/GBC/Semester 4/COMP 2139/project/steve/COMP-2139/Class Exercise 1/Class Exercise 1/obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.Class Exercise 1.props
+/Users/stevezhang/Desktop/GBC/Semester 4/COMP 2139/project/steve/COMP-2139/Class Exercise 1/Class Exercise 1/obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.Class Exercise 1.props
+/Users/stevezhang/Desktop/GBC/Semester 4/COMP 2139/project/steve/COMP-2139/Class Exercise 1/Class Exercise 1/obj/Debug/net7.0/staticwebassets.pack.json
+/Users/stevezhang/Desktop/GBC/Semester 4/COMP 2139/project/steve/COMP-2139/Class Exercise 1/Class Exercise 1/obj/Debug/net7.0/staticwebassets.build.json
+/Users/stevezhang/Desktop/GBC/Semester 4/COMP 2139/project/steve/COMP-2139/Class Exercise 1/Class Exercise 1/obj/Debug/net7.0/staticwebassets.development.json
+/Users/stevezhang/Desktop/GBC/Semester 4/COMP 2139/project/steve/COMP-2139/Class Exercise 1/Class Exercise 1/obj/Debug/net7.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
+/Users/stevezhang/Desktop/GBC/Semester 4/COMP 2139/project/steve/COMP-2139/Class Exercise 1/Class Exercise 1/obj/Debug/net7.0/scopedcss/bundle/Class Exercise 1.styles.css
+/Users/stevezhang/Desktop/GBC/Semester 4/COMP 2139/project/steve/COMP-2139/Class Exercise 1/Class Exercise 1/obj/Debug/net7.0/scopedcss/projectbundle/Class Exercise 1.bundle.scp.css
+/Users/stevezhang/Desktop/GBC/Semester 4/COMP 2139/project/steve/COMP-2139/Class Exercise 1/Class Exercise 1/obj/Debug/net7.0/Class Exercise 1.dll
+/Users/stevezhang/Desktop/GBC/Semester 4/COMP 2139/project/steve/COMP-2139/Class Exercise 1/Class Exercise 1/obj/Debug/net7.0/refint/Class Exercise 1.dll
+/Users/stevezhang/Desktop/GBC/Semester 4/COMP 2139/project/steve/COMP-2139/Class Exercise 1/Class Exercise 1/obj/Debug/net7.0/Class Exercise 1.pdb
+/Users/stevezhang/Desktop/GBC/Semester 4/COMP 2139/project/steve/COMP-2139/Class Exercise 1/Class Exercise 1/obj/Debug/net7.0/Class Exercise 1.genruntimeconfig.cache
+/Users/stevezhang/Desktop/GBC/Semester 4/COMP 2139/project/steve/COMP-2139/Class Exercise 1/Class Exercise 1/obj/Debug/net7.0/ref/Class Exercise 1.dll
+/Users/stevezhang/Desktop/GBC/Semester 4/COMP 2139/project/steve/COMP-2139/Class Exercise 1/Class Exercise 1/bin/Debug/net7.0/Azure.Core.dll
+/Users/stevezhang/Desktop/GBC/Semester 4/COMP 2139/project/steve/COMP-2139/Class Exercise 1/Class Exercise 1/bin/Debug/net7.0/Azure.Identity.dll
+/Users/stevezhang/Desktop/GBC/Semester 4/COMP 2139/project/steve/COMP-2139/Class Exercise 1/Class Exercise 1/bin/Debug/net7.0/Humanizer.dll
+/Users/stevezhang/Desktop/GBC/Semester 4/COMP 2139/project/steve/COMP-2139/Class Exercise 1/Class Exercise 1/bin/Debug/net7.0/Microsoft.Bcl.AsyncInterfaces.dll
+/Users/stevezhang/Desktop/GBC/Semester 4/COMP 2139/project/steve/COMP-2139/Class Exercise 1/Class Exercise 1/bin/Debug/net7.0/Microsoft.Data.SqlClient.dll
+/Users/stevezhang/Desktop/GBC/Semester 4/COMP 2139/project/steve/COMP-2139/Class Exercise 1/Class Exercise 1/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.dll
+/Users/stevezhang/Desktop/GBC/Semester 4/COMP 2139/project/steve/COMP-2139/Class Exercise 1/Class Exercise 1/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/stevezhang/Desktop/GBC/Semester 4/COMP 2139/project/steve/COMP-2139/Class Exercise 1/Class Exercise 1/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Design.dll
+/Users/stevezhang/Desktop/GBC/Semester 4/COMP 2139/project/steve/COMP-2139/Class Exercise 1/Class Exercise 1/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Relational.dll
+/Users/stevezhang/Desktop/GBC/Semester 4/COMP 2139/project/steve/COMP-2139/Class Exercise 1/Class Exercise 1/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.SqlServer.dll
+/Users/stevezhang/Desktop/GBC/Semester 4/COMP 2139/project/steve/COMP-2139/Class Exercise 1/Class Exercise 1/bin/Debug/net7.0/Microsoft.Extensions.DependencyModel.dll
+/Users/stevezhang/Desktop/GBC/Semester 4/COMP 2139/project/steve/COMP-2139/Class Exercise 1/Class Exercise 1/bin/Debug/net7.0/Microsoft.Identity.Client.dll
+/Users/stevezhang/Desktop/GBC/Semester 4/COMP 2139/project/steve/COMP-2139/Class Exercise 1/Class Exercise 1/bin/Debug/net7.0/Microsoft.Identity.Client.Extensions.Msal.dll
+/Users/stevezhang/Desktop/GBC/Semester 4/COMP 2139/project/steve/COMP-2139/Class Exercise 1/Class Exercise 1/bin/Debug/net7.0/Microsoft.IdentityModel.Abstractions.dll
+/Users/stevezhang/Desktop/GBC/Semester 4/COMP 2139/project/steve/COMP-2139/Class Exercise 1/Class Exercise 1/bin/Debug/net7.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/stevezhang/Desktop/GBC/Semester 4/COMP 2139/project/steve/COMP-2139/Class Exercise 1/Class Exercise 1/bin/Debug/net7.0/Microsoft.IdentityModel.Logging.dll
+/Users/stevezhang/Desktop/GBC/Semester 4/COMP 2139/project/steve/COMP-2139/Class Exercise 1/Class Exercise 1/bin/Debug/net7.0/Microsoft.IdentityModel.Protocols.dll
+/Users/stevezhang/Desktop/GBC/Semester 4/COMP 2139/project/steve/COMP-2139/Class Exercise 1/Class Exercise 1/bin/Debug/net7.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/stevezhang/Desktop/GBC/Semester 4/COMP 2139/project/steve/COMP-2139/Class Exercise 1/Class Exercise 1/bin/Debug/net7.0/Microsoft.IdentityModel.Tokens.dll
+/Users/stevezhang/Desktop/GBC/Semester 4/COMP 2139/project/steve/COMP-2139/Class Exercise 1/Class Exercise 1/bin/Debug/net7.0/Microsoft.SqlServer.Server.dll
+/Users/stevezhang/Desktop/GBC/Semester 4/COMP 2139/project/steve/COMP-2139/Class Exercise 1/Class Exercise 1/bin/Debug/net7.0/Microsoft.Win32.SystemEvents.dll
+/Users/stevezhang/Desktop/GBC/Semester 4/COMP 2139/project/steve/COMP-2139/Class Exercise 1/Class Exercise 1/bin/Debug/net7.0/Mono.TextTemplating.dll
+/Users/stevezhang/Desktop/GBC/Semester 4/COMP 2139/project/steve/COMP-2139/Class Exercise 1/Class Exercise 1/bin/Debug/net7.0/System.CodeDom.dll
+/Users/stevezhang/Desktop/GBC/Semester 4/COMP 2139/project/steve/COMP-2139/Class Exercise 1/Class Exercise 1/bin/Debug/net7.0/System.Configuration.ConfigurationManager.dll
+/Users/stevezhang/Desktop/GBC/Semester 4/COMP 2139/project/steve/COMP-2139/Class Exercise 1/Class Exercise 1/bin/Debug/net7.0/System.Drawing.Common.dll
+/Users/stevezhang/Desktop/GBC/Semester 4/COMP 2139/project/steve/COMP-2139/Class Exercise 1/Class Exercise 1/bin/Debug/net7.0/System.IdentityModel.Tokens.Jwt.dll
+/Users/stevezhang/Desktop/GBC/Semester 4/COMP 2139/project/steve/COMP-2139/Class Exercise 1/Class Exercise 1/bin/Debug/net7.0/System.Memory.Data.dll
+/Users/stevezhang/Desktop/GBC/Semester 4/COMP 2139/project/steve/COMP-2139/Class Exercise 1/Class Exercise 1/bin/Debug/net7.0/System.Runtime.Caching.dll
+/Users/stevezhang/Desktop/GBC/Semester 4/COMP 2139/project/steve/COMP-2139/Class Exercise 1/Class Exercise 1/bin/Debug/net7.0/System.Security.Cryptography.ProtectedData.dll
+/Users/stevezhang/Desktop/GBC/Semester 4/COMP 2139/project/steve/COMP-2139/Class Exercise 1/Class Exercise 1/bin/Debug/net7.0/System.Security.Permissions.dll
+/Users/stevezhang/Desktop/GBC/Semester 4/COMP 2139/project/steve/COMP-2139/Class Exercise 1/Class Exercise 1/bin/Debug/net7.0/System.Windows.Extensions.dll
+/Users/stevezhang/Desktop/GBC/Semester 4/COMP 2139/project/steve/COMP-2139/Class Exercise 1/Class Exercise 1/bin/Debug/net7.0/runtimes/unix/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+/Users/stevezhang/Desktop/GBC/Semester 4/COMP 2139/project/steve/COMP-2139/Class Exercise 1/Class Exercise 1/bin/Debug/net7.0/runtimes/win/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+/Users/stevezhang/Desktop/GBC/Semester 4/COMP 2139/project/steve/COMP-2139/Class Exercise 1/Class Exercise 1/bin/Debug/net7.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/stevezhang/Desktop/GBC/Semester 4/COMP 2139/project/steve/COMP-2139/Class Exercise 1/Class Exercise 1/bin/Debug/net7.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/stevezhang/Desktop/GBC/Semester 4/COMP 2139/project/steve/COMP-2139/Class Exercise 1/Class Exercise 1/bin/Debug/net7.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/stevezhang/Desktop/GBC/Semester 4/COMP 2139/project/steve/COMP-2139/Class Exercise 1/Class Exercise 1/bin/Debug/net7.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/stevezhang/Desktop/GBC/Semester 4/COMP 2139/project/steve/COMP-2139/Class Exercise 1/Class Exercise 1/bin/Debug/net7.0/runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll
+/Users/stevezhang/Desktop/GBC/Semester 4/COMP 2139/project/steve/COMP-2139/Class Exercise 1/Class Exercise 1/bin/Debug/net7.0/runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll
+/Users/stevezhang/Desktop/GBC/Semester 4/COMP 2139/project/steve/COMP-2139/Class Exercise 1/Class Exercise 1/bin/Debug/net7.0/runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll
+/Users/stevezhang/Desktop/GBC/Semester 4/COMP 2139/project/steve/COMP-2139/Class Exercise 1/Class Exercise 1/bin/Debug/net7.0/runtimes/win/lib/netstandard2.0/System.Runtime.Caching.dll
+/Users/stevezhang/Desktop/GBC/Semester 4/COMP 2139/project/steve/COMP-2139/Class Exercise 1/Class Exercise 1/bin/Debug/net7.0/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
+/Users/stevezhang/Desktop/GBC/Semester 4/COMP 2139/project/steve/COMP-2139/Class Exercise 1/Class Exercise 1/bin/Debug/net7.0/runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll
+/Users/stevezhang/Desktop/GBC/Semester 4/COMP 2139/project/steve/COMP-2139/Class Exercise 1/Class Exercise 1/obj/Debug/net7.0/Class Exercise 1.csproj.CopyComplete
+C:\Users\toron\OneDrive\桌面\Class Exercise 1\Class Exercise 1\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\toron\OneDrive\桌面\Class Exercise 1\Class Exercise 1\bin\Debug\net7.0\appsettings.json
+C:\Users\toron\OneDrive\桌面\Class Exercise 1\Class Exercise 1\bin\Debug\net7.0\Class Exercise 1.staticwebassets.runtime.json
+C:\Users\toron\OneDrive\桌面\Class Exercise 1\Class Exercise 1\bin\Debug\net7.0\Class Exercise 1.exe
+C:\Users\toron\OneDrive\桌面\Class Exercise 1\Class Exercise 1\bin\Debug\net7.0\Class Exercise 1.deps.json
+C:\Users\toron\OneDrive\桌面\Class Exercise 1\Class Exercise 1\bin\Debug\net7.0\Class Exercise 1.runtimeconfig.json
+C:\Users\toron\OneDrive\桌面\Class Exercise 1\Class Exercise 1\bin\Debug\net7.0\Class Exercise 1.dll
+C:\Users\toron\OneDrive\桌面\Class Exercise 1\Class Exercise 1\bin\Debug\net7.0\Class Exercise 1.pdb
+C:\Users\toron\OneDrive\桌面\Class Exercise 1\Class Exercise 1\bin\Debug\net7.0\Azure.Core.dll
+C:\Users\toron\OneDrive\桌面\Class Exercise 1\Class Exercise 1\bin\Debug\net7.0\Azure.Identity.dll
+C:\Users\toron\OneDrive\桌面\Class Exercise 1\Class Exercise 1\bin\Debug\net7.0\Humanizer.dll
+C:\Users\toron\OneDrive\桌面\Class Exercise 1\Class Exercise 1\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\toron\OneDrive\桌面\Class Exercise 1\Class Exercise 1\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+C:\Users\toron\OneDrive\桌面\Class Exercise 1\Class Exercise 1\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\toron\OneDrive\桌面\Class Exercise 1\Class Exercise 1\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\toron\OneDrive\桌面\Class Exercise 1\Class Exercise 1\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\toron\OneDrive\桌面\Class Exercise 1\Class Exercise 1\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\toron\OneDrive\桌面\Class Exercise 1\Class Exercise 1\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\toron\OneDrive\桌面\Class Exercise 1\Class Exercise 1\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\toron\OneDrive\桌面\Class Exercise 1\Class Exercise 1\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+C:\Users\toron\OneDrive\桌面\Class Exercise 1\Class Exercise 1\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\toron\OneDrive\桌面\Class Exercise 1\Class Exercise 1\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\toron\OneDrive\桌面\Class Exercise 1\Class Exercise 1\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\toron\OneDrive\桌面\Class Exercise 1\Class Exercise 1\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\toron\OneDrive\桌面\Class Exercise 1\Class Exercise 1\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\toron\OneDrive\桌面\Class Exercise 1\Class Exercise 1\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\toron\OneDrive\桌面\Class Exercise 1\Class Exercise 1\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\toron\OneDrive\桌面\Class Exercise 1\Class Exercise 1\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+C:\Users\toron\OneDrive\桌面\Class Exercise 1\Class Exercise 1\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\toron\OneDrive\桌面\Class Exercise 1\Class Exercise 1\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Users\toron\OneDrive\桌面\Class Exercise 1\Class Exercise 1\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\toron\OneDrive\桌面\Class Exercise 1\Class Exercise 1\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Users\toron\OneDrive\桌面\Class Exercise 1\Class Exercise 1\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Users\toron\OneDrive\桌面\Class Exercise 1\Class Exercise 1\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\toron\OneDrive\桌面\Class Exercise 1\Class Exercise 1\bin\Debug\net7.0\System.Memory.Data.dll
+C:\Users\toron\OneDrive\桌面\Class Exercise 1\Class Exercise 1\bin\Debug\net7.0\System.Runtime.Caching.dll
+C:\Users\toron\OneDrive\桌面\Class Exercise 1\Class Exercise 1\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\toron\OneDrive\桌面\Class Exercise 1\Class Exercise 1\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Users\toron\OneDrive\桌面\Class Exercise 1\Class Exercise 1\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Users\toron\OneDrive\桌面\Class Exercise 1\Class Exercise 1\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\toron\OneDrive\桌面\Class Exercise 1\Class Exercise 1\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\toron\OneDrive\桌面\Class Exercise 1\Class Exercise 1\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\toron\OneDrive\桌面\Class Exercise 1\Class Exercise 1\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\toron\OneDrive\桌面\Class Exercise 1\Class Exercise 1\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\toron\OneDrive\桌面\Class Exercise 1\Class Exercise 1\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\toron\OneDrive\桌面\Class Exercise 1\Class Exercise 1\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\toron\OneDrive\桌面\Class Exercise 1\Class Exercise 1\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\toron\OneDrive\桌面\Class Exercise 1\Class Exercise 1\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\toron\OneDrive\桌面\Class Exercise 1\Class Exercise 1\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\toron\OneDrive\桌面\Class Exercise 1\Class Exercise 1\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\toron\OneDrive\桌面\Class Exercise 1\Class Exercise 1\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\toron\OneDrive\桌面\Class Exercise 1\Class Exercise 1\obj\Debug\net7.0\Class Exercise 1.csproj.AssemblyReference.cache
+C:\Users\toron\OneDrive\桌面\Class Exercise 1\Class Exercise 1\obj\Debug\net7.0\Class Exercise 1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\toron\OneDrive\桌面\Class Exercise 1\Class Exercise 1\obj\Debug\net7.0\Class Exercise 1.AssemblyInfoInputs.cache
+C:\Users\toron\OneDrive\桌面\Class Exercise 1\Class Exercise 1\obj\Debug\net7.0\Class Exercise 1.AssemblyInfo.cs
+C:\Users\toron\OneDrive\桌面\Class Exercise 1\Class Exercise 1\obj\Debug\net7.0\Class Exercise 1.csproj.CoreCompileInputs.cache
+C:\Users\toron\OneDrive\桌面\Class Exercise 1\Class Exercise 1\obj\Debug\net7.0\Class Exercise 1.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\toron\OneDrive\桌面\Class Exercise 1\Class Exercise 1\obj\Debug\net7.0\Class Exercise 1.RazorAssemblyInfo.cache
+C:\Users\toron\OneDrive\桌面\Class Exercise 1\Class Exercise 1\obj\Debug\net7.0\Class Exercise 1.RazorAssemblyInfo.cs
+C:\Users\toron\OneDrive\桌面\Class Exercise 1\Class Exercise 1\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\toron\OneDrive\桌面\Class Exercise 1\Class Exercise 1\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\toron\OneDrive\桌面\Class Exercise 1\Class Exercise 1\obj\Debug\net7.0\staticwebassets\msbuild.Class Exercise 1.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\toron\OneDrive\桌面\Class Exercise 1\Class Exercise 1\obj\Debug\net7.0\staticwebassets\msbuild.build.Class Exercise 1.props
+C:\Users\toron\OneDrive\桌面\Class Exercise 1\Class Exercise 1\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Class Exercise 1.props
+C:\Users\toron\OneDrive\桌面\Class Exercise 1\Class Exercise 1\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Class Exercise 1.props
+C:\Users\toron\OneDrive\桌面\Class Exercise 1\Class Exercise 1\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\toron\OneDrive\桌面\Class Exercise 1\Class Exercise 1\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\toron\OneDrive\桌面\Class Exercise 1\Class Exercise 1\obj\Debug\net7.0\scopedcss\bundle\Class Exercise 1.styles.css
+C:\Users\toron\OneDrive\桌面\Class Exercise 1\Class Exercise 1\obj\Debug\net7.0\scopedcss\projectbundle\Class Exercise 1.bundle.scp.css
+C:\Users\toron\OneDrive\桌面\Class Exercise 1\Class Exercise 1\obj\Debug\net7.0\Class Exercise 1.csproj.CopyComplete
+C:\Users\toron\OneDrive\桌面\Class Exercise 1\Class Exercise 1\obj\Debug\net7.0\Class Exercise 1.dll
+C:\Users\toron\OneDrive\桌面\Class Exercise 1\Class Exercise 1\obj\Debug\net7.0\refint\Class Exercise 1.dll
+C:\Users\toron\OneDrive\桌面\Class Exercise 1\Class Exercise 1\obj\Debug\net7.0\Class Exercise 1.pdb
+C:\Users\toron\OneDrive\桌面\Class Exercise 1\Class Exercise 1\obj\Debug\net7.0\Class Exercise 1.genruntimeconfig.cache
+C:\Users\toron\OneDrive\桌面\Class Exercise 1\Class Exercise 1\obj\Debug\net7.0\ref\Class Exercise 1.dll
