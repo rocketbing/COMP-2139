@@ -1,0 +1,80 @@
+﻿@model Booking.Dtos.CarViewModel
+@{
+    ViewData["Title"] = "CarBooking";
+}
+
+<h4>Car Booking</h4>
+
+<form method="get">
+    <div class="row">
+        <div class="col-md-3">
+            <div class="form-group">
+                <label class="control-label">Date</label>
+                <input type="date" class="form-control" asp-for="filter.Date" required>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="form-group">
+                <label class="control-label">Location</label>
+                <input type="text" class="form-control" asp-for="filter.Location" required>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="form-group">
+                <label class="control-label"></label>
+                <button type="submit" class="btn btn-success mt-4">Filter</button>
+            </div>
+        </div>
+    </div>
+</form>
+
+@if (Model.CarRentals.Count() > 0)
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    Name
+                </th>
+                <th>
+                    Modal
+                </th>
+                <th>
+                    Brand
+                </th>
+                <th>
+                    Location
+                </th>
+                <th>
+                    Price Per Day
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.CarRentals)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Name)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Modal)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Brand)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Location)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.PricePerDay)
+                    </td>
+                    <td>
+                        <a asp-action="CarReservation" asp-route-carId="@item.Id" asp-route-date="@Model.filter.Date">Booking Available</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

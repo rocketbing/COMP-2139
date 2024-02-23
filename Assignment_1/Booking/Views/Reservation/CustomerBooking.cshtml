@@ -1,0 +1,106 @@
+﻿@model Booking.Dtos.CustomerBookingViewModal
+@{
+    ViewData["Title"] = "CustomerBooking";
+}
+
+<h4>All Hotel Booking</h4>
+@if (Model.Hotels.Count > 0)
+{
+    <table class="table table-hoverd">
+        <thead>
+            <tr>
+                <td>Hotel Name</td>
+                <td>Location</td>
+                <td>Price</td>
+                <td>From Date</td>
+                <td>To Date</td>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.Hotels)
+            {
+                <tr>
+                    <th>@item.Hotel.Name</th>
+                    <th>@item.Hotel.Location</th>
+                    <th>@item.Hotel.PricePerNight</th>
+                    <th>@item.FromDate</th>
+                    <th>@item.ToDate</th>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>No Booking found</p>
+}
+
+<hr />
+
+<h4>All Car Booking</h4>
+@if (Model.Cars.Count > 0)
+{
+    <table class="table table-hoverd">
+        <thead>
+            <tr>
+                <td>Car Name</td>
+                <td>Brand</td>
+                <td>Price</td>
+                <td>Booking Date</td>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.Cars)
+            {
+                <tr>
+                    <th>@item.CarRental.Name</th>
+                    <th>@item.CarRental.Brand</th>
+                    <th>@item.CarRental.PricePerDay</th>
+                    <th>@item.Date</th>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>No Booking found</p>
+}
+
+<hr />
+
+<h4>All Flight Booking</h4>
+@if (Model.flights.Count > 0)
+{
+    <table class="table table-hoverd">
+        <thead>
+            <tr>
+                <td>Flight Name</td>
+                <td>Airline</td>
+                <td>Departure City</td>
+                <td>Arrival City</td>
+                <td>Departure Time</td>
+                <td>Arrival Time</td>
+                <td>Booking Date</td>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.flights)
+            {
+                <tr>
+                    <th>@item.Flight.FlightName</th>
+                    <th>@item.Flight.Airline</th>
+                    <th>@item.Flight.DepartureCity</th>
+                    <th>@item.Flight.ArrivalCity</th>
+                    <th>@item.Flight.DepartureTime</th>
+                    <th>@item.Flight.ArrivalTime</th>
+                    <th>@item.Date</th>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>No Booking found</p>
+}

@@ -1,0 +1,97 @@
+﻿@model Booking.Dtos.FlightViewModel
+@{
+    ViewData["Title"] = "Flight Booking";
+}
+<h4>Flight Booking</h4>
+
+<form method="get">
+    <div class="row">
+        <div class="col-md-3">
+            <div class="form-group">
+                <label class="control-label">Date</label>
+                <input type="date" class="form-control" asp-for="filter.Date" required>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="form-group">
+                <label class="control-label">Departure</label>
+                <input type="text" class="form-control" asp-for="filter.Departure" required>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="form-group">
+                <label class="control-label">Arrival</label>
+                <input type="text" class="form-control" asp-for="filter.Arrival" required>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="form-group">
+                <label class="control-label"></label>
+                <button type="submit" class="btn btn-success mt-4">Filter</button>
+            </div>
+        </div>
+    </div>
+</form>
+
+@if (Model.Flights.Count() > 0)
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    Name
+                </th>
+                <th>
+                    Airline
+                </th>
+                <th>
+                    Departure City
+                </th>
+                <th>
+                    Arrival City
+                </th>
+                <th>
+                    Departure Time
+                </th>
+                <th>
+                    Arrival Time
+                </th>
+                <th>
+                    Price
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.Flights)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.FlightName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Airline)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.DepartureCity)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ArrivalCity)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.DepartureTime)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ArrivalTime)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Price)
+                    </td>
+                    <td>
+                        <a asp-action="FlightReservation" asp-route-flightId="@item.Id" asp-route-date="@Model.filter.Date">Booking Available</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

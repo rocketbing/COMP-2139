@@ -1,0 +1,87 @@
+﻿@model Booking.Dtos.CarViewModel
+@{
+    ViewData["Title"] = "CarReservation";
+}
+<h1>Car Booking</h1>
+<div>
+    <h4>CarRental Detail</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.CarDetail.Name)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.CarDetail.Name)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.CarDetail.Modal)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.CarDetail.Modal)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.CarDetail.Brand)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.CarDetail.Brand)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.CarDetail.Location)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.CarDetail.Location)
+        </dd>
+        <dt class="col-sm-2">
+            Price Per Day
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.CarDetail.PricePerDay)
+        </dd>
+        <hr />
+        <h4>Booking Period</h4>
+        <dt class="col-sm-2">
+            Date
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.CarBooking.Date)
+        </dd>
+    </dl>
+</div>
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="CarReservation">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input hidden asp-for="CarBooking.Id" />
+            <input hidden asp-for="CarBooking.CarRentalId" />
+            <input hidden asp-for="CarBooking.Date" />
+            <input hidden asp-for="CarBooking.UserID" />
+            <div class="form-group">
+                <label asp-for="CarBooking.Name" class="control-label"></label>
+                <input asp-for="CarBooking.Name" class="form-control" />
+                <span asp-validation-for="CarBooking.Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CarBooking.Detail" class="control-label"></label>
+                <input asp-for="CarBooking.Detail" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label asp-for="CarBooking.Contact" class="control-label"></label>
+                <input asp-for="CarBooking.Contact" class="form-control" />
+            </div>
+            <div class="form-group">
+                <button class="btn btn-primary mt-2">Confirm your booking</button>
+            </div>
+            <div>
+                <a asp-action="FlightBooking">Cancel</a>
+            </div>
+
+        </form>
+    </div>
+</div>
+
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

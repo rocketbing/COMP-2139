@@ -1,0 +1,98 @@
+﻿@model Booking.Dtos.HotelBookingViewModel
+
+@{
+    ViewData["Title"] = "HotelBooking";
+}
+<h4>Hotel Booking</h4>
+<form method="get">
+    <div class="row">
+        <div class="col-md-2">
+            <div class="form-group">
+                <label class="control-label">From Date</label>
+                <input type="date" class="form-control" asp-for="filter.FromDate" required>
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="form-group">
+                <label class="control-label">To Date</label>
+                <input type="date" class="form-control" asp-for="filter.ToDate" required>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="form-group">
+                <label class="control-label">Min Price</label>
+                <input type="number" class="form-control" asp-for="filter.MinPrice" required>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="form-group">
+                <label class="control-label">Max Price</label>
+                <input type="number" class="form-control" asp-for="filter.MaxPrice">
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="form-group">
+                <label class="control-label"></label>
+                <button type="submit" class="btn btn-success mt-4">Filter</button>
+            </div>
+        </div>
+    </div>
+</form>
+
+@if(Model.Hotel.Count > 0)
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                   Name
+                </th>
+                <th>
+                    Location
+                </th>
+                <th>
+                    Rating
+                </th>
+                <th>
+                    Amenities
+                </th>
+                <th>
+                    Number Of Rooms
+                </th>
+                <th>
+                    Price Per Night
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.Hotel)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Name)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Location)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Rating)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Amenities)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.NumberOfRooms)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.PricePerNight)
+                    </td>
+                    <td>
+                        <a asp-action="HotelReservation" asp-route-hotelId="@item.Id" asp-route-fromDate="@Model.filter.FromDate" asp-route-toDate="@Model.filter.ToDate">Booking Available</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+}

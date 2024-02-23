@@ -1,0 +1,61 @@
+﻿
+<h1>Booking List</h1>
+
+<form asp-controller="Reservation" asp-action="GetContextData" method="get">
+    <input type="radio" name="bookingType" value="flight" checked> Flight
+    <input type="radio" name="bookingType" value="hotel"> Hotel
+    <input type="radio" name="bookingType" value="carRental"> Car Rental
+
+    <!-- Flight Search Fields -->
+    <div id="flightSearch" class="bookingSection">
+        <label>Date:</label>
+        <input type="date" name="flightDate">
+    </div>
+
+    <!-- Hotel Search Fields -->
+    <div id="hotelSearch" class="bookingSection" style="display: none;>
+        <label>Guest Name:</label>
+        <input type="text" name="guestName">
+        <label>Hotel Type:</label>
+        <select name="hotelType">
+            <option value="1">Type 1</option>
+            <option value="2">Type 2</option>
+            <option value="3">Type 3</option>
+        </select>
+        <label>Price Range:</label>
+        <input type="number" name="minPrice" placeholder="Min Price">
+        <input type="number" name="maxPrice" placeholder="Max Price">
+    </div>
+    <!-- Car Rental Search Fields -->
+    <div id="carRentalSearch" class="bookingSection" style="display: none;>
+        <label>Price Range:</label>
+        <input type="number" name="minPrice" placeholder="Min Price">
+        <input type="number" name="maxPrice" placeholder="Max Price">
+    </div>
+
+    <button type="submit">Filter</button>
+</form>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Booking ID</th>
+            <th>Flight</th>
+            <th>Hotel</th>
+            <th>Car Rental</th>
+            <!-- Add more columns as needed -->
+        </tr>
+    </thead>
+</table>
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            // Show/hide search fields based on the selected radio button
+            $('input[type="radio"]').change(function () {
+                var bookingType = $(this).val();
+                $('.bookingSection').hide();
+                $('#' + bookingType + 'Search').show();
+            });
+        });
+    </script>
+}

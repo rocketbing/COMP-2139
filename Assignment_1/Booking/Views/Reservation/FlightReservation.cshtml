@@ -1,0 +1,99 @@
+﻿@model Booking.Dtos.FlightViewModel
+@{
+    ViewData["Title"] = "FlightReservation";
+}
+
+<h1>Flight Booking</h1>
+<div>
+    <h4>Flight detail</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.flightDetail.FlightName)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.flightDetail.FlightName)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.flightDetail.Airline)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.flightDetail.Airline)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.flightDetail.DepartureCity)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.flightDetail.DepartureCity)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.flightDetail.ArrivalCity)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.flightDetail.ArrivalCity)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.flightDetail.DepartureTime)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.flightDetail.DepartureTime)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.flightDetail.ArrivalTime)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.flightDetail.ArrivalTime)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.flightDetail.Price)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.flightDetail.Price)
+        </dd>
+        <hr />
+        <h4>Booking Period</h4>
+        <dt class="col-sm-2">
+            Date
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.flightBooking.Date)
+        </dd>
+    </dl>
+</div>
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="FlightReservation">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input hidden asp-for="flightBooking.Id" />
+            <input hidden asp-for="flightBooking.FlightId" />
+            <input hidden asp-for="flightBooking.Date" />
+            <input hidden asp-for="flightBooking.UserID" />
+            <div class="form-group">
+                <label asp-for="flightBooking.Name" class="control-label"></label>
+                <input asp-for="flightBooking.Name" class="form-control" />
+                <span asp-validation-for="flightBooking.Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="flightBooking.Detail" class="control-label"></label>
+                <input asp-for="flightBooking.Detail" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label asp-for="flightBooking.Contact" class="control-label"></label>
+                <input asp-for="flightBooking.Contact" class="form-control" />
+            </div>
+            <div class="form-group">
+                <button class="btn btn-primary mt-2">Confirm your booking</button>
+            </div>
+            <div>
+                <a asp-action="FlightBooking">Cancel</a>
+            </div>
+
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
