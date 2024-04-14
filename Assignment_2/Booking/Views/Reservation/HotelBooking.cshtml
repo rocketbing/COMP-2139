@@ -1,0 +1,118 @@
+﻿@model Booking.Dtos.HotelBookingViewModel
+
+@{
+    ViewData["Title"] = "HotelBooking";
+}
+
+<h4>Hotel Booking</h4>
+<form id="filterForm">
+    <div class="row">
+        <div class="col-md-2">
+            <div class="form-group">
+                <label class="control-label">From Date</label>
+                <input type="date" class="form-control" id="fromDate" name="FromDate" required>
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="form-group">
+                <label class="control-label">To Date</label>
+                <input type="date" class="form-control" id="toDate" name="ToDate" required>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="form-group">
+                <label class="control-label">Min Price</label>
+                <input type="number" class="form-control" id="minPrice" name="MinPrice" required>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="form-group">
+                <label class="control-label">Max Price</label>
+                <input type="number" class="form-control" id="maxPrice" name="MaxPrice">
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="form-group">
+                <label class="control-label"></label>
+                <button type="button" class="btn btn-success mt-4" id="filterButton">Filter</button>
+            </div>
+        </div>
+    </div>
+</form>
+
+<table class="table" id="hotelTable">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Location</th>
+            <th>Rating</th>
+            <th>Amenities</th>
+            <th>Number Of Rooms</th>
+            <th>Price Per Night</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        <!-- Hotel data will be appended here -->
+        @foreach (var item in Model.Hotel)
+        {
+            <tr>
+                <!-- Your table data -->
+                <td>@Html.DisplayFor(modelItem => item.Name)</td>
+                <td>@Html.DisplayFor(modelItem => item.Location)</td>
+                <td>@Html.DisplayFor(modelItem => item.Rating)</td>
+                <td>@Html.DisplayFor(modelItem => item.Amenities)</td>
+                <td>@Html.DisplayFor(modelItem => item.NumberOfRooms)</td>
+                <td>@Html.DisplayFor(modelItem => item.PricePerNight)</td>
+                <td>
+                    <a asp-action="HotelReservation" asp-route-hotelId="@item.Id" asp-route-fromDate="@Model.filter.FromDate" asp-route-toDate="@Model.filter.ToDate">Booking Available</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            $('#filterButton').click(function () {
+                // Serialize form data
+                var formData = {
+                    FromDate: $('#fromDate').val(),
+                    ToDate: $('#toDate').val(),
+                    MinPrice: $('#minPrice').val(),
+                    MaxPrice: $('#maxPrice').val()
+                };
+
+                // Send AJAX request
+                $.ajax({
+                    url: '/Reservation/HotelBookingJson', // Update with your actual controller and action method
+                    type: 'GET', // Assuming you're using GET method
+                    data: formData,
+                    success: function (result) {
+                        // Clear existing table body content
+                        $('#hotelTable tbody').html("");
+                        // Append new hotel data to table
+                        $.each(result, function (index, hotel) {
+                            debugger;
+                            var name = hotel.name || 'N/A';
+                            var location = hotel.location || 'N/A';
+                            var rating = hotel.rating || 'N/A';
+                            var amenities = hotel.amenities || 'N/A';
+                            var numberOfRooms = hotel.numberOfRooms || 'N/A';
+                            var pricePerNight = hotel.pricePerNight || 'N/A';
+                            var id = hotel.Id || hotel.id;
+
+                            // Append data to table
+                            $('#hotelTable tbody').append('<tr><td>' + name + '</td><td>' + location + '</td><td>' + rating + '</td><td>' + amenities + '</td><td>' + numberOfRooms + '</td><td>' + pricePerNight + '</td><td><a href="/Reservation/HotelReservation?hotelId=' + id + '&fromDate=' + formData.FromDate + '&toDate=' + formData.ToDate + '">Booking Available</a></td></tr>');
+                        });
+                    },
+                    error: function (xhr, status, error) {
+                        console.error(error);
+                    }
+                });
+            });
+        });
+    </script>
+}

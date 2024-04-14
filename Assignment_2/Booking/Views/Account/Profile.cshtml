@@ -1,0 +1,46 @@
+﻿@model Booking.Dtos.UserUpdateDto
+@{
+    ViewData["Title"] = "Profile";
+}
+
+<div class="row">
+    <div class="offset-lg-4 col-md-4">
+        <h1>Profile</h1>
+        <form method="post" enctype="multipart/form-data">
+            <input hidden asp-for="UserId"/>
+            <input hidden asp-for="Image"/>
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group mb-2">
+                <label asp-for="FirstName" class="control-label"></label>
+                <input asp-for="FirstName" class="form-control" />
+                <span asp-validation-for="FirstName" class="text-danger"></span>
+            </div>
+            <div class="form-group mb-2">
+                <label asp-for="LastName" class="control-label"></label>
+                <input asp-for="LastName" class="form-control" />
+                <span asp-validation-for="LastName" class="text-danger"></span>
+            </div>
+           
+            <div class="form-group mb-2">
+                <label asp-for="Email" class="control-label"></label>
+                <input asp-for="Email" class="form-control" type="email" required />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="form-group mb-2">
+                <label class="control-label">Upload Profile Image</label>
+                <input asp-for="ImageFile" class="form-control" type="file" accept=".jpg, .png, .jpeg"/>
+            </div>
+            @if(Model.Image != null)
+            {
+                <div class="form-group mb-2">
+                    <label class="control-label">Current Image</label>
+                    <img src="@Model.Image" width="100%"/>
+                </div>
+            }
+            
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary mt-2" />
+            </div>
+        </form>
+    </div>
+</div>

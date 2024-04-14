@@ -1,0 +1,52 @@
+﻿@model Booking.Dtos.UserRegistrationDto
+
+@{
+    ViewData["Title"] = "New User";
+}
+
+<form method="post" class="mt-0">
+    <div asp-validation-summary="All" class="text-danger"></div>
+    <!---- First Row --->
+    <div class="container">
+        <div class="row g-3">
+            <!-- City Name -->
+            <div class="col-lg-6 mb-2">
+                <div class="input-group mb-2 pe-2">
+                    <span class="input-group-text">First Name</span>
+                    <input asp-for="FirstName" class="form-control" required />
+                </div>
+            </div>
+            <div class="col-lg-6 mb-2">
+                <div class="input-group mb-2 pe-2">
+                    <span class="input-group-text">Last Name</span>
+                    <input asp-for="LastName" class="form-control" required />
+                </div>
+            </div>
+            <div class="col-lg-6 mb-2">
+                <div class="input-group mb-2 pe-2">
+                    <span class="input-group-text">Login User</span>
+                    <input asp-for="UserName" class="form-control" required />
+                </div>
+            </div>
+            <div class="col-lg-6 mb-2">
+                <div class="input-group mb-2 pe-2">
+                    <span class="input-group-text">Password</span>
+                    <input asp-for="Password" class="form-control" required />
+                </div>
+            </div>
+            <div class="col-lg-6 mb-2">
+                <div class="input-group mb-2 pe-2">
+                    <span class="input-group-text">Assign Role</span>
+                    <select asp-for="RoleId" class="form-control" asp-items="@ViewBag.Roles" required>
+                        <option selected value="">Plesae select..</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="row g-3">
+            <div class="col-lg-1 text-center mt-3">
+                <button type="submit" class="btn btn-primary">Save</button>
+            </div>
+        </div>
+    </div>
+</form>

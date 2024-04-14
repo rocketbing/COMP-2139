@@ -1,0 +1,117 @@
+﻿@model Booking.Dtos.CarViewModel
+@{
+    ViewData["Title"] = "CarBooking";
+}
+
+<h4>Car Booking</h4>
+
+<form method="get">
+    <div class="row">
+        <div class="col-md-3">
+            <div class="form-group">
+                <label class="control-label">Date</label>
+                <input type="date" class="form-control" id="date" name="Date" required>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="form-group">
+                <label class="control-label">Location</label>
+                <input type="text" class="form-control" id="location" name="Location" required>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="form-group">
+                <label class="control-label"></label>
+                <button type="button" class="btn btn-success mt-4" id="filterButton">Filter</button>
+            </div>
+        </div>
+    </div>
+</form>
+
+<table class="table" id="CarTableBody">
+    <thead>
+        <tr>
+            <th>
+                Name
+            </th>
+            <th>
+                Modal
+            </th>
+            <th>
+                Brand
+            </th>
+            <th>
+                Location
+            </th>
+            <th>
+                Price Per Day
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.CarRentals)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Modal)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Brand)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Location)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PricePerDay)
+                </td>
+                <td>
+                    <a asp-action="CarReservation" asp-route-carId="@item.Id" asp-route-date="@Model.filter.Date">Booking Available</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            $('#filterButton').click(function () {
+                // Serialize form data
+                var formData = {
+                    Date: $('#date').val(),
+                    Location: $('#location').val()
+                };
+                // Send AJAX request
+                $.ajax({
+                    url: '/Reservation/CarBookingJson', // Update with your actual controller and action method
+                    type: 'GET', // Assuming you're using GET method
+                    data: formData,
+                    success: function (result) {
+                        // Clear existing table body content
+                        $('#CarTableBody tbody').html("");
+
+                        // Append new flight data to table
+                        $.each(result, function (index, car) {
+                            var name = car.name || 'N/A';
+                            var model = car.modal || 'N/A';
+                            var brand = car.brand || 'N/A';
+                            var location = car.location || 'N/A';
+                            var pricePerDay = car.pricePerDay || 'N/A';
+                            var id = car.Id || car.id;
+
+                            $('#CarTableBody tbody').append('<tr><td>' + name + '</td><td>' + model + '</td><td>' + brand + '</td><td>' + location + '</td><td>' + pricePerDay + '</td><td><a href="/Reservation/CarReservation?carId=' + id + '&date=' + formData.Date + '">Booking Available</a></td></tr>');
+                        });
+                    },
+                    error: function (xhr, status, error) {
+                        console.error(error);
+                    }
+                });
+            });
+        });
+    </script>
+}

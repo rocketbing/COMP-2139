@@ -1,0 +1,100 @@
+﻿@model Booking.Dtos.HotelBookingViewModel
+@{
+    ViewData["Title"] = "HotelReservation";
+}
+
+<h1>Hotel Booking</h1>
+<div>
+    <h4>Hotel Detail</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.HotelDetail.Name)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.HotelDetail.Name)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.HotelDetail.Location)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.HotelDetail.Location)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.HotelDetail.Rating)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.HotelDetail.Rating)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.HotelDetail.Amenities)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.HotelDetail.Amenities)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.HotelDetail.NumberOfRooms)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.HotelDetail.NumberOfRooms)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.HotelDetail.PricePerNight)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.HotelDetail.PricePerNight)
+        </dd>
+        <h5>Booking Period</h5>
+        <dt class="col-sm-2">
+            From Date
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.HotelBooking.FromDate)
+        </dd>
+        <dt class="col-sm-2">
+            To Date
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.HotelBooking.ToDate)
+        </dd>
+    </dl>
+</div>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="HotelReservation">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input hidden asp-for="HotelBooking.Id" />
+            <input hidden asp-for="HotelBooking.HotelId" />
+            <input hidden asp-for="HotelBooking.FromDate" />
+            <input hidden asp-for="HotelBooking.ToDate" />
+            <input hidden asp-for="HotelBooking.UserID" />
+            <div class="form-group">
+                <label asp-for="HotelBooking.Name" class="control-label"></label>
+                <input asp-for="HotelBooking.Name" class="form-control" />
+                <span asp-validation-for="HotelBooking.Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="HotelBooking.Detail" class="control-label"></label>
+                <input asp-for="HotelBooking.Detail" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label asp-for="HotelBooking.Contact" class="control-label"></label>
+                <input asp-for="HotelBooking.Contact" class="form-control" />
+            </div>
+            <div class="form-group">
+                <button class="btn btn-primary mt-2">Confirm your booking</button>
+            </div>
+            <div>
+                <a asp-action="HotelBooking">Cancel</a>
+            </div>
+
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
